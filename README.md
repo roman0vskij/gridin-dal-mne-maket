@@ -1,0 +1,1 @@
+# gridin-dal-mne-maket

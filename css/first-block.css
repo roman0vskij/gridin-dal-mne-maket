@@ -1,0 +1,212 @@
+@charset "UTF-8";
+.first-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1267px;
+  width: 100%;
+  padding-top: 47px;
+  background-image: url(../img/коврф1.png);
+  background-repeat: no-repeat;
+  background-position: right 104px bottom;
+  z-index: -1;
+}
+
+.first-block__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1231px;
+  width: 100%;
+  max-height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-block__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-height: 42px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1085px;
+}
+.first-block__header p {
+  font-size: 36px;
+  line-height: 42px;
+  color: #000;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.first-block__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 277px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.first-block__links a {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #737373;
+}
+
+.first-block__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1231px;
+  width: 100%;
+  height: 644px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-block__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-height: 644px;
+  height: 100%;
+  background-image: url(../img/подложка1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom 88px;
+  z-index: -2;
+}
+.first-block__main button {
+  background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  border-radius: 7px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  max-width: 179px;
+  height: 53px;
+  border: none;
+}
+
+.first-block__main-text {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  max-width: 718px;
+  width: 60%;
+  letter-spacing: 0px;
+}
+
+.first-block__additional-text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  height: 43px;
+  margin: 10px 0 5px 0;
+}
+
+@media screen and (max-width: 1270px) {
+  .first-block {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 930px) {
+  .first-block {
+    background: none;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .first-block__main-text {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .first-block__article {
+    height: 500px;
+  }
+
+  .first-block__main button {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    max-width: 141px;
+    height: 42px;
+  }
+
+  .first-block__links {
+    display: none;
+  }
+
+  .first-block {
+    background: none;
+  }
+}
+@media screen and (max-width: 520px) {
+  .first-block__header {
+    width: auto;
+  }
+  .first-block__header p {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .first-block__article {
+    height: 256px;
+  }
+
+  .first-block__logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .first-block__logo img {
+    width: 60px;
+    height: 36px;
+  }
+
+  .first-block__main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-size: contain;
+    background-position: right bottom;
+  }
+  .first-block__main button {
+    font-size: 10px;
+    line-height: 12px;
+    width: 93px;
+    height: 28px;
+  }
+
+  .first-block__main-text {
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .first-block__additional-text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}

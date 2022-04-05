@@ -1,0 +1,136 @@
+header {
+  height: 77px;
+  width: 100%;
+  background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header a {
+  font-size: 15px;
+  line-height: 10px;
+  color: #fff;
+}
+
+.header__content {
+  max-width: 1267px;
+  margin: 0 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.telephone-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 391px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.telephone-numbers img {
+  height: 20px;
+  width: 20px;
+}
+
+.gps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  max-width: 338px;
+  width: 20%;
+}
+.gps a {
+  padding-left: 8px;
+}
+.gps img {
+  width: 15px;
+  height: 25px;
+}
+
+.insta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.insta img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 28.3px;
+}
+.insta a {
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .telephone-numbers {
+    display: none;
+  }
+
+  .gps {
+    width: auto;
+  }
+}
+@media screen and (max-width: 520px) {
+  .header__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .telephone-numbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 33px;
+    width: 300px;
+    margin-top: 5px;
+  }
+  .telephone-numbers img {
+    display: none;
+  }
+  .telephone-numbers a {
+    font-size: 14px;
+    line-height: 10px;
+  }
+
+  .insta {
+    display: none;
+  }
+
+  .gps img {
+    display: none;
+  }
+}
